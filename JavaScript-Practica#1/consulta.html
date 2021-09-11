@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Alumnos<span class="sr-only">Alumnos</span></a>
+                    <a class="nav-link" href="./index.html">Inicio<span class="sr-only">Inicio</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Consulta<span class="sr-only">(current)</span></a>
@@ -41,24 +41,28 @@
         <div class="row">
             
             <div class="form-group">
-                <label for="Input5">Carrera</label>
-                <select class="form-control " id="Input5"  onchange="readQ()">
-                    <option value="selecciona">selecciona</option>
-                    <option value="Informatica">Informatica</option>
-                    <option value="Sistemas">Sistemas</option>
-                    <option value="TICS">TICS</option>
+                <label for="Input8">Departamento</label>
+                <select class="form-control " id="Input8"  onchange="readQ()">
+                    <option value="selecciona">Selecciona</option>
+                    <option value="Gerente">Gerente</option>
+                    <option value="Contador">Contador</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Logistica">Logistica</option>
                 </select>
             </div>  
             <div class="col-md-12">
-                <h3 style="text-align:center">Alumnos</h3>
+                <h3 style="text-align:center">Empleados</h3>
 
                 <table class="table table-hover">
                     <thead>
                       <tr>
-                        <th scope="col">Matrícula</th>
+                        <th scope="col">Codigo Empleado</th>
                         <th scope="col">Nombre</th>
-                        <th scope="col">Correo</th>
-                        <th scope="col">Carrera</th>
+                        <th scope="col">Apellidos</th>
+                        <th scope="col">Departamento</th>
+                        <th scope="col">Telefono</th>
+                        <th scope="col">RFC</th>
+                        <th scope="col">Sueldo</th>
                         <th scope="col"></th>
                         <th scope="col"></th>
                       </tr>
