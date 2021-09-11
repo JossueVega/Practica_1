@@ -172,7 +172,7 @@ function readQ(){
 
 }
 
-function readQ(){
+/**function readQ(){
     document.getElementById("Table2").innerHTML='';
     var e = document.getElementById("Input9").value;
 
@@ -182,7 +182,7 @@ function readQ(){
     });
 
 }
-
+*/
 function printRowQ(empleados){
 
     var table = document.getElementById("Table2"); 
