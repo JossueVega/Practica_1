@@ -1,11 +1,12 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBYcz37BsGhDgLFTqDbSF56X5w_ynWsXEA",
-  authDomain: "practica1-js.firebaseapp.com",
-  projectId: "practica1-js",
-  storageBucket: "practica1-js.appspot.com",
-  messagingSenderId: "98263035779",
-  appId: "1:98263035779:web:d29fe69022d4752fa910b6",
-  measurementId: "G-94RVHH5SW6"
+    apiKey: "AIzaSyBYcz37BsGhDgLFTqDbSF56X5w_ynWsXEA",
+    authDomain: "practica1-js.firebaseapp.com",
+    databaseURL: "https://practica1-js-default-rtdb.firebaseio.com",
+    projectId: "practica1-js",
+    storageBucket: "practica1-js.appspot.com",
+    messagingSenderId: "98263035779",
+    appId: "1:98263035779:web:d29fe69022d4752fa910b6",
+    measurementId: "G-94RVHH5SW6"
   };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
